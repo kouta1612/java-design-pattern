@@ -1,4 +1,6 @@
-class Main {
+package Iterator;
+
+public class Main {
     public static void main(String[] args) {
         BookShelf bookShelf = new BookShelf(3);
         bookShelf.appendBook(new Book("apple"));
