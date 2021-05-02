@@ -1,4 +1,4 @@
-package Iterator;
+package IteratorPattern;
 
 public class BookShelfIterator implements Iterator {
     private BookShelf bookShelf;

@@ -1,4 +1,4 @@
-package Iterator;
+package IteratorPattern;
 
 public interface Aggregate {
     public Iterator iterator();
