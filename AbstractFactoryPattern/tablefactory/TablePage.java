@@ -19,7 +19,7 @@ public class TablePage extends Page {
         Iterator it = content.iterator();
         while (it.hasNext()) {
             Item item = (Item) it.next();
-            buffer.append(item.makeHTML());
+            buffer.append("<tr>" + item.makeHTML() + "</tr>");
         }
         buffer.append("</table>\n");
         buffer.append("<hr><address>" + author + "</address>\n");
